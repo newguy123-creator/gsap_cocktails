@@ -110,7 +110,7 @@ const Hero = () => {
                 </div>
             </section>
 
-            <div className="video absolute inset-0">
+            <div id="home" className="video absolute inset-0">
                 <video
                     ref={videoRef}
                     src="/videos/output.mp4"
